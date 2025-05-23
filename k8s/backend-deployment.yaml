@@ -22,7 +22,7 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: mongodb-secret
-                key: connection-string
+                key: connectionstring
           - name: LOGSTASH_HOST
             value: "logstash"
           - name: LOGSTASH_PORT
